@@ -12,17 +12,10 @@
     <groupId>com.ruanshubin</groupId>
     <artifactId>springboot</artifactId>
     <packaging>pom</packaging>
+
     <modules>
         <module>spring-security</module>
         <module>schedule</module>
     </modules>
-
-    <dependencies>
-        <dependency>
-            <groupId></groupId>
-            <artifactId></artifactId>
-        </dependency>
-    </dependencies>
-
 
 </project>
