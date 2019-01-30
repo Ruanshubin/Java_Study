@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3ccca5a-6a73-49fa-9934-0c20908fc789" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/java/Idea使用经验.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/alibaba-nacos-config-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/alibaba-nacos-config-client/src/main/java/com/ruanshubin/nacos/config/client/NacosConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/alibaba-nacos-config-client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-client-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-client-common/src/main/java/com/ruanshubin/nacos/discovery/client/TestNacosClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-client-common/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-server/src/main/java/com/ruanshubin/nacos/discovery/server/TestNacosApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/eureka-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/eureka-client/src/main/java/com/ruanshubin/springcloud/eureka/client/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/eureka-client/src/main/java/com/ruanshubin/springcloud/eureka/client/controller/DcController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/eureka-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/eureka-server/src/main/java/com/ruanshubin/springcloud/eureka/server/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/eureka-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/pom.xml" afterDir="false" />
     </list>
     <ignored path="D:/javastudy/out/" />
     <ignored path="D:/javastudy/target/" />
@@ -19,6 +36,11 @@
     <ignored path="$PROJECT_DIR$/springboot/target/" />
     <ignored path="$PROJECT_DIR$/springcloud/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-server/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-client-common/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud/eureka-client/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud/alibaba-nacos-config-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,34 +50,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot/pom.xml">
+      <file leaf-file-name="NacosConfigApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springcloud/alibaba-nacos-config-client/src/main/java/com/ruanshubin/nacos/config/client/NacosConfigApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="176">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+                <element signature="e#905#906#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot/schedule/src/main/java/com/ruanshubin/springboot/schedule/Application.java">
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud/alibaba-nacos-config-client/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-client-common/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot/schedule/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -91,6 +115,27 @@
         <option value="D:/javastudy/springboot/schedule/src/main/java/com/ruanshubin/springboot/schedule/Application.java" />
         <option value="$PROJECT_DIR$/springboot/schedule/pom.xml" />
         <option value="$PROJECT_DIR$/springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-server/src/main/java/com/ruanshubin/nacos/config/client/TestNacosApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-server/src/main/java/com/ruanshubin/nacos/discovery/server/TestNacosApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-client-common/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-client-common/src/main/java/com/ruanshubin/nacos/discovery/client/TestNacosClientApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/eureka-server/src/main/java/com/ruanshubin/springcloud/eureka/server/EurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud/eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/eureka-client/src/main/java/com/ruanshubin/springcloud/eureka/client/Application.java" />
+        <option value="$PROJECT_DIR$/springcloud/eureka-client/src/main/java/com/ruanshubin/springcloud/eureka/client/controller/DcController.java" />
+        <option value="$PROJECT_DIR$/springcloud/eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud/eureka-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springcloud/eureka-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-client-common/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/docs/java/Idea使用经验.md" />
+        <option value="$PROJECT_DIR$/springcloud/alibaba-nacos-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/alibaba-nacos-config-client/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/springcloud/alibaba-nacos-config-client/src/main/java/com/ruanshubin/nacos/config/client/NacosConfigApplication.java" />
       </list>
     </option>
   </component>
@@ -112,12 +157,16 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="schedule" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="eureka-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="schedule" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -127,10 +176,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="194" />
-    <option name="y" value="68" />
+    <option name="x" value="271" />
+    <option name="y" value="87" />
     <option name="width" value="1609" />
-    <option name="height" value="819" />
+    <option name="height" value="926" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -138,6 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,26 +198,96 @@
             <path>
               <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-study" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba-nacos-config-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-study" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba-nacos-config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-study" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba-nacos-config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-study" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba-nacos-config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-study" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba-nacos-config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-study" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba-nacos-discovery-client-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-study" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba-nacos-discovery-client-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-study" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba-nacos-discovery-client-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-study" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba-nacos-discovery-client-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/tcd" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -177,6 +297,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java-study\springcloud\alibaba-nacos-discovery-client-common\src\main\resources" />
       <recent name="D:\javastudy\springboot\schedule\src\main\resources" />
     </key>
   </component>
@@ -192,7 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (1)">
+  <component name="RunManager" selected="Spring Boot.NacosConfigApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -212,25 +333,58 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="schedule" />
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-client" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ruanshubin.springboot.schedule.*" />
+          <option name="PATTERN" value="com.ruanshubin.springcloud.eureka.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruanshubin.springboot.schedule.Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruanshubin.springcloud.eureka.client.Application" />
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springsecurity" />
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ruanshbin.springboot.security.*" />
+          <option name="PATTERN" value="com.ruanshubin.springcloud.eureka.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruanshbin.springboot.security.Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruanshubin.springcloud.eureka.server.EurekaServerApplication" />
+    </configuration>
+    <configuration name="NacosConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="alibaba-nacos-config-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ruanshubin.nacos.config.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruanshubin.nacos.config.client.NacosConfigApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="TestNacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="alibaba-nacos-discovery-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ruanshubin.nacos.discovery.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruanshubin.nacos.discovery.server.TestNacosApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="TestNacosClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="alibaba-nacos-discovery-client-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ruanshubin.nacos.discovery.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruanshubin.nacos.discovery.client.TestNacosClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -255,13 +409,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.TestNacosApplication" />
+      <item itemvalue="Spring Boot.TestNacosClientApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.Application (2)" />
+      <item itemvalue="Spring Boot.NacosConfigApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Application (1)" />
-        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Spring Boot.NacosConfigApplication" />
+        <item itemvalue="Spring Boot.TestNacosClientApplication" />
+        <item itemvalue="Spring Boot.TestNacosApplication" />
+        <item itemvalue="Spring Boot.Application (2)" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -279,18 +439,20 @@
       <workItem from="1548077134928" duration="165000" />
       <workItem from="1548077329778" duration="206000" />
       <workItem from="1548077550909" duration="259000" />
+      <workItem from="1548749996761" duration="14414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5899000" />
+    <option name="totallyTimeSpent" value="20313000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="194" y="68" width="1609" height="819" extended-state="0" />
+    <frame x="271" y="87" width="1609" height="926" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.23950936" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.18689163" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -300,16 +462,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32854864" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34013605" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.112804875" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20335701" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2634653" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -332,6 +494,30 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/springboot/schedule/src/main/java/com/ruanshubin/springboot/schedule/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot/schedule/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -350,9 +536,6 @@
     <entry file="file://D:/javastudy/springboot/schedule/src/main/java/com/ruanshubin/springboot/schedule/task/ScheduledTasks.java" />
     <entry file="file://D:/javastudy/springboot/schedule/src/main/resources/application.yml" />
     <entry file="file://D:/javastudy/springboot/schedule/src/main/java/com/ruanshubin/springboot/schedule/Application.java" />
-    <entry file="file://$PROJECT_DIR$/springcloud/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot/schedule/src/main/java/com/ruanshubin/springboot/schedule/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -368,12 +551,188 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
+        <state relative-caret-position="418">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/nacos/nacos-api/0.6.2/nacos-api-0.6.2.jar!/com/alibaba/nacos/api/annotation/NacosInjected.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/nacos/nacos-api/0.6.2/nacos-api-0.6.2.jar!/com/alibaba/nacos/api/annotation/NacosProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/eureka-server/src/main/java/com/ruanshubin/springcloud/eureka/server/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/eureka-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/eureka-client/src/main/java/com/ruanshubin/springcloud/eureka/client/controller/DcController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/eureka-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/eureka-client/src/main/java/com/ruanshubin/springcloud/eureka/client/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/eureka-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="16" lean-forward="true" selection-end-line="2" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/eureka-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/java/Idea使用经验.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-server/src/main/java/com/ruanshubin/nacos/discovery/server/TestNacosApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-client-common/src/main/java/com/ruanshubin/nacos/discovery/client/TestNacosClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/alibaba-nacos-config-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-client-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="21" column="19" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/alibaba-nacos-discovery-client-common/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/alibaba-nacos-config-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/alibaba-nacos-config-client/src/main/java/com/ruanshubin/nacos/config/client/NacosConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

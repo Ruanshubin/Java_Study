@@ -11,6 +11,14 @@
 
     <groupId>com.ruanshubin</groupId>
     <artifactId>springcloud</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>alibaba-nacos-discovery-server</module>
+        <module>alibaba-nacos-discovery-client-common</module>
+        <module>eureka-server</module>
+        <module>eureka-client</module>
+        <module>alibaba-nacos-config-client</module>
+    </modules>
 
 
 </project>
