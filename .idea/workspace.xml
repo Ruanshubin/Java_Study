@@ -2,79 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3ccca5a-6a73-49fa-9934-0c20908fc789" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink基本概念.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink基本概念_files/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink基本概念_files/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink基本概念_files/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink基本概念_files/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink基本概念_files/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink的Window机制.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink的Window机制_files/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink的Window机制_files/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink的Window机制_files/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink的Window机制_files/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink的Window机制_files/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink的Window机制_files/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink的Window机制_files/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink的Window机制_files/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink的Window机制_files/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink的Window机制_files/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink的Window机制_files/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink的Window机制_files/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink集群安装.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink集群安装_files/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink集群安装_files/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink集群安装_files/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink集群安装_files/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink集群安装_files/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink集群安装_files/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink集群安装_files/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink集群安装_files/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink集群安装_files/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink集群安装_files/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink集群安装_files/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink集群安装_files/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink集群安装_files/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/Flink集群安装_files/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/flink/google_data_flow.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/hive/Hive入门.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/spark/Spark_streaming&amp;Kafka_files/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/spark/Spark_streaming&amp;Kafka_files/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/spark/Spark_streaming&amp;Kafka_files/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/spark/Spark_streaming&amp;Kafka_files/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/spark/Spark_streaming&amp;Kafka_files/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/spark/Spark_streaming&amp;Kafka_files/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/spark/Spark_streaming&amp;Kafka_files/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/spark/Spark_streaming&amp;Kafka_files/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/spark/Spark_streaming&amp;Kafka_files/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/spark/Spark入门.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/spark/Spark入门_files/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/spark/Spark入门_files/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/spark/Spark入门_files/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/spark/Spark入门_files/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/spark/Spark入门_files/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/spark/Spark程序部署在YARN上.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/big-data/spark/使用Spark Streaming处理Kafka数据流.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/java/Java并发机制的底层实现原理.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/java/一文搞懂原码、反码、补码.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/java/一文搞懂原码、反码、补码_files/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/java/一文搞懂原码、反码、补码_files/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/java/登录及用户处理.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/springcloud/Springcloud的负载均衡策略.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/springcloud/springcloud入门笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tools/ETL学习--Kettle基础.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tools/ETL学习--Kettle基础_files/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tools/ETL学习--Kettle基础_files/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tools/ETL学习--Kettle基础_files/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tools/Markdown初探.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tools/PostgresSQL安装.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tools/PostgresSQL安装_files/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tools/PostgresSQL安装_files/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tools/PostgresSQL安装_files/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tools/PostgresSQL安装_files/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tools/PostgresSQL安装_files/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tools/PostgresSQL安装_files/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tools/maven入门.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="D:/javastudy/out/" />
@@ -118,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maven入门.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="maven入门.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/tools/maven入门.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -133,6 +61,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
               <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="44">
+                <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -198,6 +138,7 @@
         <option value="$PROJECT_DIR$/springcloud/alibaba-nacos-config-client/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud/alibaba-nacos-config-client/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/springcloud/alibaba-nacos-config-client/src/main/java/com/ruanshubin/nacos/config/client/NacosConfigApplication.java" />
+        <option value="$PROJECT_DIR$/docs/README.md" />
       </list>
     </option>
   </component>
@@ -256,11 +197,6 @@
             <path>
               <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-study" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -433,7 +369,7 @@
       <workItem from="1548077134928" duration="165000" />
       <workItem from="1548077329778" duration="206000" />
       <workItem from="1548077550909" duration="259000" />
-      <workItem from="1548749996761" duration="15003000" />
+      <workItem from="1548749996761" duration="16865000" />
     </task>
     <task id="LOCAL-00001" summary="[added] 添加Spring Cloud Alibaba中nacos的相关内容，主要测试了下服务管理及配置管理。">
       <created>1548840262096</created>
@@ -442,11 +378,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548840262097</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[added] 添加相关文档。">
+      <created>1548840636798</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548840636798</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20902000" />
+    <option name="totallyTimeSpent" value="22764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="271" y="87" width="1609" height="926" extended-state="0" />
@@ -493,7 +436,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[added] 添加Spring Cloud Alibaba中nacos的相关内容，主要测试了下服务管理及配置管理。" />
-    <option name="LAST_COMMIT_MESSAGE" value="[added] 添加Spring Cloud Alibaba中nacos的相关内容，主要测试了下服务管理及配置管理。" />
+    <MESSAGE value="[added] 添加相关文档。" />
+    <option name="LAST_COMMIT_MESSAGE" value="[added] 添加相关文档。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -720,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/alibaba-nacos-config-client/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud/alibaba-nacos-config-client/src/main/java/com/ruanshubin/nacos/config/client/NacosConfigApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -745,6 +682,23 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/alibaba-nacos-config-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
