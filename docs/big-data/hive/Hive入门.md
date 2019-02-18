@@ -217,7 +217,7 @@ create database test;
 
 ```
 
-### hive in spark
+### hive on spark
 
 ```
 配置步骤：
