@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: config-server-git
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@10.194.224.82:/home/git/study_test.git
+          search-paths: SpringCloud/config
+          passphrase: hiatmp
+          ignore-local-ssh-settings: true
+          private-key: |
+                        -----BEGIN RSA PRIVATE KEY-----
+                        MIIEpgIBAAKCAQEA2KkyfD3ozani1ntQYeuHfi7zal/ADoynhRnw00hmjqnYMckq
+                        Mh3ofa1OwbG7uMn4N6Zz/6iomxB8ZT/nLfL2sdALpOR5k6tSSz9YkQKSTlM3tjhh
+                        hHlzOuQJnjrWB2wiO5oWyKf/6GQgVnqS2M2njbCWuK8JScgOXQUEfVUGoP6vJ0Wg
+                        3k86IT519oFG5KOkwbpYqRzPq+oJAWDoQXgi8OcgdUwXNqPgTIa/xrTdPfPr7jRI
+                        /Ot/a1WkgXbtsuZCxjtQxzpWLWCjoqG2Z1dfVsbLxU9cmDRd7uEgR9b3+/gXmvZ9
+                        kf6aVy4YuBNrvZzd1JMUDaFCxoscrgIsztoxrwIDAQABAoIBAQCuLSdm9iZH4EF6
+                        B9yRO9XLPVd2ts8hYzXxLO+MC3JXUnd5Xq1LaPvUvRTJZmbxoXyo0GoEp8QUFObM
+                        RtlE+UQVopkZ0ItkiaA42g4LVbPkv8XT+fN7ml9mgpiw2b/ia64BmFikq1pxqrzM
+                        iPGw1XPT1pj0k9K1u9zALx5y233ewiTllDhH7HtY3GAvncZhiJwMRIb+0o6ebbPX
+                        fASvtXYVCQtGaB61gXSxoPmc4412EwCBWaZNjO+AlymB1oaG1hFGt5C33qfQn8Hb
+                        6pVDFzwAjMYCuzfNmfpiajA2UX1oC0V3+PHcHqN9S7fwj8yaMwgl0tuV4KGZ3If0
+                        nNhaqVwBAoGBAPwgGl1ObjYc1sPIGE/QHb4rxaS5w5Hx3TpjvVfi31BaY3KBZAhs
+                        PnS6Vj9Tpldxs4tjB+lFfq//1fGN0/6oqTLp550KamMHycsJ6D7ZO3qqZzBBL7Df
+                        jFMxcpzi3U0P/e/gZpg+G3H6t90rCTdaW9K2gti08NfWuZFG9jEKjXivAoGBANv9
+                        kmuvzvaZk7QbAOLK3apjdWa6nwTLUThcWrog/oCnSrOe+XoFMt3PXZZG0KCXkXX9
+                        TNpcZpNu7RB7bNx91KbYO0sY7oseoh3WrJ05NeSnqoyy2fOcWV2QbNG89A1RfNM8
+                        Hqw6w5X/2oaNf3Sugvzd5BEM41eicY0vYOTsGxcBAoGBAJ9iVAhkSnve403FMslR
+                        0VulJD6sSJv8gFQnNU1X2MBdQ7zhWzGP7DOykE9cPC3PbSdSpW+sRRhR7RfVBw1X
+                        5g6Pm6HFMdgE1maKjs0cWuOC0dTJgLKZv4XgHopbSHctAuUfwPvBV2xIiO9CA4OA
+                        lcexJSqFyDNKROk4KO57s091AoGBAL+6DotVzN102ZrFUg9WWLwwNFiU2xRVknK5
+                        YsUHDmfX5S4IpkrnDv7rxBe9ngPoNPkNCpbgovFpYqjTuPutmtDScVKw5u1OhGHW
+                        /9eCzep7ChPXqEY9hFEcFwrwUA7vbwe2RNE74cvwEWblGSj7EuQJCsSlY9mzlJ1E
+                        poC9GZsBAoGBAO1toasaoZwIivElGkvQbQbjO3+CEhe+T7WTo1xy4EiqMIgPNZi3
+                        fGHGZrnbv2HZEOhP5NJAPuMRaxZr6tKIQfSmf/wn75mxobI15cdZt5vBwX0qMRyY
+                        fsLLBdEIMu5cwzj6QJkSCaJd2fNJCduHiw4ANpFeagmG2PfMx7fWQkdY
+                        -----END RSA PRIVATE KEY-----
+server:
+  port: 7001

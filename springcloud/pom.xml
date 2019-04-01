@@ -18,6 +18,15 @@
         <module>eureka-server</module>
         <module>eureka-client</module>
         <module>alibaba-nacos-config-client</module>
+        <module>consul</module>
+        <module>ribbon</module>
+        <module>feign</module>
+        <module>hystrix</module>
+        <module>config-git</module>
+        <module>config-client</module>
+        <module>config-git-consul</module>
+        <module>config-client-consul</module>
+        <module>zuul</module>
     </modules>
 
 

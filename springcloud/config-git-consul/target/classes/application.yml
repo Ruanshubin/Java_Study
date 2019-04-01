@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: config-server-git
+  cloud:
+    config:
+      server:
+        git:
+          # uri: https://github.com/Ruanshubin/study_test/
+          uri: http://10.194.224.82:8899/ruanshubin/study_test.git
+          search-paths: SpringCloud/config
+    consul:
+      host: 10.194.224.113
+      port: 8500
+      discovery:
+        prefer-ip-address: true
+        healthCheckInterval: 5s
+        healthCheckCriticalTimeout: 20s
+        instance-id: config-server-git
+server:
+  port: 7005
